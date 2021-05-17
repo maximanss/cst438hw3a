@@ -1,5 +1,5 @@
 package cst438hw3a.controller;
-
+//Good use of variables for this assignment.
 /**
  * This is the controller to handle URL like http://localhost:8080/cities/Miami
  *      It will return a html page about the Miami city's info that includes current temperature and time,
@@ -40,6 +40,9 @@ public class CityController {
         model.addAttribute("city", city);
         return "showcity";
     }
+    
+    //your City Controller is returning an html document as it should
+    //as the CityRestController does not 
     
     // process and send the reservation request to the backend server
     @PostMapping("/cities/reservation")

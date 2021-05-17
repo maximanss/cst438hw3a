@@ -1,7 +1,9 @@
 package cst438hw3a.controller;
 
+//Great use of the Rest Controller; as it does not return an html document 
 /**
 * This is the Rest controller which provides external Rest Service when user enter URL like
+
 *      http://localhost:8080/api/cities/Miami, 
 *      It will return a JSON format string containing Miami's info
 * 
